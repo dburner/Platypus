@@ -1,0 +1,131 @@
+html {position: relative; min-height: 100%;}
+body {
+	margin:0;
+	background: $color5;
+	color:#333;
+	font-size: 14px;
+	font-family: 'Ubuntu';
+	line-height: 1.5em;
+	overflow-y: scroll;
+	padding-bottom: 90px;
+}
+h1,h2,h3,h4 {
+	margin: 0;
+	font-weight: normal;
+	line-height: 2em;
+	color:#444;
+}
+h1 {font-size: 48px;}
+h2 {font-size: 36px;}
+h3 {font-size: 28px;}
+h4 {font-size: 22px;}
+blockquote {
+	margin: 0;
+	padding: 20px 40px;
+	border:1px solid #F6F6F6;
+	background: #FAFAFA;
+	background-image: url(../images/quote1.png), url(../images/quote2.png);
+	background-position: left top, right bottom;
+	background-repeat: no-repeat, no-repeat;
+	color:#666;
+	font-style: italic;
+}
+a {
+	color:$color2;
+	transition:color 0.14s ease-in-out;
+	&:hover {
+		color:$color3;
+	}
+	&:visited {
+		color:$color3;
+	}
+}
+img {
+	border:1px solid #EEE;
+	box-shadow: 1px 1px 2px #DDD;
+}
+ul, ol {
+	line-height: 2.4em;
+}
+ul {
+	list-style-image: url(../images/minus2.png);
+	list-style-position: outside;
+}
+input[type=submit], input[type=reset] {
+	padding: 0 20px;
+	height: 32px;
+	border:1px solid #444;
+	border-radius:4px;
+	background: rgb(101,66,10); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(101,66,10,1) 0%, rgba(177,129,53,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(101,66,10,1)), color-stop(100%,rgba(177,129,53,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(101,66,10,1) 0%,rgba(177,129,53,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(101,66,10,1) 0%,rgba(177,129,53,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(101,66,10,1) 0%,rgba(177,129,53,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(101,66,10,1) 0%,rgba(177,129,53,1) 100%); /* W3C */
+	box-shadow: 1px 1px 2px rgba(80,80,80,0.6);
+	color:white;
+	font-family: 'Ubuntu';
+	font-size: 13px;
+	line-height: 32px;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#65420a', endColorstr='#b18135',GradientType=0 );
+	cursor:pointer;
+	transition: all 0.14s ease-in-out;
+	&:active {
+		background: rgb(99,62,6); /* Old browsers */
+		background: -moz-linear-gradient(top,  rgba(99,62,6,1) 2%, rgba(101,66,10,1) 8%, rgba(175,118,33,1) 99%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(2%,rgba(99,62,6,1)), color-stop(8%,rgba(101,66,10,1)), color-stop(99%,rgba(175,118,33,1))); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top,  rgba(99,62,6,1) 2%,rgba(101,66,10,1) 8%,rgba(175,118,33,1) 99%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top,  rgba(99,62,6,1) 2%,rgba(101,66,10,1) 8%,rgba(175,118,33,1) 99%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top,  rgba(99,62,6,1) 2%,rgba(101,66,10,1) 8%,rgba(175,118,33,1) 99%); /* IE10+ */
+		background: linear-gradient(to bottom,  rgba(99,62,6,1) 2%,rgba(101,66,10,1) 8%,rgba(175,118,33,1) 99%); /* W3C */
+		box-shadow: inset 1px 2px 3px #444;
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#633e06', endColorstr='#af7621',GradientType=0 ); /* IE6-9 */
+	}
+}
+input[type="text"], input[type="password"] {
+	box-sizing: border-box;
+	padding: 0 10px;
+	width: 220px;
+	height: 32px;
+	border:1px solid #BBB;
+	font-family: 'Ubuntu';
+	background: white;
+}
+textarea {
+	position: relative;
+	box-sizing: border-box;
+	margin:0;
+	padding: 10px;
+	min-width: 50%;
+	max-width: 100%;
+	max-height: 500px;
+	width: 50%;
+	border:1px solid #BBB;
+	font-family: 'Ubuntu';
+	line-height: 20px;
+}
+hr {
+	margin-top: 20px;
+	margin-bottom:20px;
+	border:none;
+	border-bottom: 1px solid #DDD;
+	background: none;
+}
+.error {
+	color:#C00;
+}
+.success {
+	color:green;
+}
+.separator {
+	display: block;
+	height: 0px;
+	margin:20px 0;
+	border:0;
+	border-bottom-width: 1px;
+	&.dashed {border-style: dashed;}
+	&.double {border-style: double; border-bottom-width: 3px;}
+	&.dotted {border-style: dotted;}
+	border-bottom-color: #DDD;
+}

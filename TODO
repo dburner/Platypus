@@ -1,0 +1,43 @@
+Views:
+ ✔ Header si Footer @done (13-05-05 21:56)
+ ✔ 404 @done (13-05-05 21:56)
+ ✔ LandingPage @done (13-05-05 21:56)
+ ✔ Home @done (13-05-05 21:55)
+ ☐ User Page
+ ☐ My Courses
+
+ Models:
+ ✔ create_user(); @done (13-05-05 18:12)
+ ✔ user_exists(); @done (13-05-05 18:12)
+ ✔ email_exists(); @done (13-05-05 18:13)
+ ✔ check_email_address(); @done (13-05-05 18:12)
+ ✔ update_user(); @done (13-05-14 00:27)
+ ✔ user_meta(); @done (13-05-14 00:27)
+ --- ✄ -----------------------
+ ☐ create_course();
+ ☐ edit_course();
+ ☐ get_courses();
+ ☐ edit_course_meta();
+ ☐ create_lesson();
+ ☐ get_courses();
+ ☐ get_course_by_slug();
+ ☐ get_course_by_id();
+ ☐ get_course_lessons();
+--- ✄ -----------------------
+ ☐ De aplicat try and catch la toate queryurile
+ Routes:
+ ✔ Landing @done (13-05-05 21:54)
+ ✔ 404 @done (13-05-05 21:54)
+ ✔ Home @done (13-05-05 21:54)
+
+CSS:
+
+
+Design:
+ ☐ Logo + Text (Photoshop)
+
+
+ Alte idei:
+ ☐ de refacut marimea la tags
+ ☐ de revizuit uploadul de imagine
+ ☐ de creat select cu jquery
